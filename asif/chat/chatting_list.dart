@@ -15,6 +15,13 @@ class _ChattingListState extends State<ChattingList> {
         title: const Text('Chatting List'),
         centerTitle: true,
       ),
+      body: ListView.builder(
+          itemCount: 20,
+          itemBuilder: (context, index){
+            return const ListTile(
+               title: Text('Asif'),
+            );
+      }),
     );
   }
 }
