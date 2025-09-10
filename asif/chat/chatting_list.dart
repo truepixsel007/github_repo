@@ -19,7 +19,7 @@ class _ChattingListState extends State<ChattingList> {
           itemCount: 20,
           itemBuilder: (context, index){
             return const ListTile(
-               title: Text('Asif'),
+               title: Icon(Icons.add),
             );
       }),
     );
