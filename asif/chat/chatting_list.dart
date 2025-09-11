@@ -18,7 +18,9 @@ class _ChattingListState extends State<ChattingList> {
       body: ListView.builder(
           itemCount: 20,
           itemBuilder: (context, index){
-            return Text('chat');
+            return Text('Main');
+
+
       }),
     );
   }
