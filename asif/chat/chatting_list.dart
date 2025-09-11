@@ -18,10 +18,6 @@ class _ChattingListState extends State<ChattingList> {
       body: ListView.builder(
           itemCount: 20,
           itemBuilder: (context, index){
-            return const ListTile(
-               title: Icon(Icons.add),
-            );
-
             return Container();
 
 
